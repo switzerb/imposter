@@ -1,12 +1,14 @@
 # Hello, World
 
-The beginning of a project for me, particularly a greenfield project where no legacy code exists, is both exciting and terrifying. The sense of potential and possibility is almost intoxicating and for those of us who have with a deep-seated need to control and perfect the code we work on, a blank page also represents code with no errors in it yet.
+The beginning of a project for me, particularly a greenfield project where no legacy code exists, is both exciting and terrifying. The sense of potential and possibility is almost intoxicating. And, for those of us with control issues and aspirations of perfection, a blank page also represents code with no errors in it yet.
 
-The more you write, the more complex the software becomes and at some point you look at what you've written and realize that endless perfect potential has turned into legacy code that needs to be maintained. The sense of accomplishment is inevitably married to the realization that now you want to refactor everything.
+Crossing the threshhold into complexity doesn't take long and, inevitably the pride in accomplishment gets married to a strong impulse to refactor everything, RIGHT NOW.
 
-Which is why sometimes it's hard to get started. The sense of impending failure and disappointment can often stop me and send me instead to playing Zelda on my Nintento, making excuses or procrastinating. Playing Zelda is a whole lot easier than accepting the inevitable messiness that is real life. 
+Which is why sometimes it's hard to get started. Avoidance of the actual messiness of real life and fear of failure can generate a remarkable heap of procrastination. 
 
-So small, simple formal beginnings can be quite useful in solving that problem. In particular in situations where I am intimidated by the problem that I've set for myself or overwhelmed by it's complexity, this provides a clear open door to walk through.
+So small, simple formal beginnings can be quite useful in solving that problem. In particular, when I am overwhelmed by impending complexity, this provides a clear open door to walk through. 
+
+As a concrete example, this year I've set out to learn some Java as a way to focus on coding fundamentals, which intimidated me. 
 
 ```
 public static void main(String[] args) throws IOException {
@@ -14,7 +16,21 @@ public static void main(String[] args) throws IOException {
 }
 ``` 
 
+This was the first Java I ever wrote and is likely the place most beginners start.
+
 The uses of a simple "Hello, World" start are many:
 
-* It's a simple entry point to get started
-* It also proves that I set up my java development environment correctly
+* It's a simple entry point and the complexity is managable even to a beginner
+* It's concrete, visible and short time-to-execute
+* It demonstrates the development environment/deploy/stack is set up correctly
+* It exposes environmental and system problems, like a cumbersome deploy process
+
+When I start personal or professional projects, I include a "Hello, World" unit test as well to confirm my test environment will run and tests things. It usually looks something like this:
+
+```
+    @Test
+    public void testHello() {
+        assertEquals(true, true);
+    }
+```
+
