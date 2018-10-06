@@ -20,7 +20,7 @@ This was the first Java I ever wrote and is likely the place most beginners star
 
 The uses of a simple "Hello, World" start are many:
 
-* It's a simple entry point and the complexity is managable even to a beginner
+* It's a simple entry point and the complexity is manageable even to a beginner
 * It's concrete, visible and short time-to-execute
 * It demonstrates the development environment/deploy/stack is set up correctly
 * It exposes environmental and system problems, like a cumbersome deploy process
