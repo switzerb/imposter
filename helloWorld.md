@@ -1,3 +1,5 @@
+...[brennaswitzer.com](https://brennaswitzer.com) > [Imposter Syndrome](https://switzerb.github.io/imposter/)
+
 # Hello, World
 
 The beginning of a project for me, particularly a greenfield project where no legacy code exists, is both exciting and terrifying. The sense of potential and possibility is almost intoxicating. And, for those of us with control issues and aspirations of perfection, a blank page also represents code with no errors in it yet.

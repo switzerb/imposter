@@ -1,3 +1,5 @@
+...[brennaswitzer.com](https://brennaswitzer.com) > [Imposter Syndrome](https://switzerb.github.io/imposter/)
+
 # Unit Testing
 
 If you are anything like me, you heard the phrase "unit testing" thrown around a lot before it meant anything real. And terms such as "unit testing", "integration testing" and "functional testing" had little distinction. They all fell into the category of "should be doing but not on THIS project". Most of my software experience at that point comprised of tight deadlines, unfamiliar technologies, poorly defined specifications or tight budgets that didn't account for anything as fancy as "testing".

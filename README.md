@@ -1,3 +1,5 @@
+...[brennaswitzer.com](https://brennaswitzer.com)
+
 ##### My "travel" journal of coding practice and exploration. This blog is about my experiences with software engineering, both the painful and the enjoyable. 
 
 The intention here is less "tutorial" than "conversing about a topic I love". There are already many tutorials out there and frankly it makes me uncomfortable to position myself as an authority - I am constantly aware of how much there is to learn for any given topic. 
