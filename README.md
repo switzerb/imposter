@@ -9,3 +9,5 @@ Writing software is delightful madness, personal obsession and an endless source
 10/6/2018 [Hello, World](helloWorld.md)
 
 11/12/2018 [Unit Testing](unitTesting.md)
+
+03/16/2019 [Mise En Place](mise_en_place.md)
