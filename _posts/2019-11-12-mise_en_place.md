@@ -1,18 +1,20 @@
-...[brennaswitzer.com](https://brennaswitzer.com) > [Imposter Syndrome](https://switzerb.github.io/imposter/)
+---
+layout: post
+title:  "Mise En Place"
+date:   2019-11-12
+categories: process
+---
+The benefits of mental clarity and organization on the quality of code can hardly be overstated. From the tools used to code to the mental processes employed to break a problem down, physical space and time, a clear idea of purpose and destination, it all factors into both the quality of the experience and the resulting code. Because coding itself can be so intellectually challenging, the lack of focus can be so disastrous as to make solving a problem impossible.
 
-# Mise En Place
+And like most things that are incredibly, powerfully useful and straightforward, it's super difficult to actually do consistently. This blog post was supposed to be about mutual recursion...a tricky topic about two interacting recursive loops that turned out to be incredible useful in a code puzzle I was solving.
 
-## Distraction
+But instead, my life got busy with deadlines, parenting and a new employment opportunity and so the blog post got postponed. And then postponed again. And I totally lost all of my clarity. Of course I did.
 
-Full disclosure, this blog post was supposed to be about mutual recursion. I'd recently been intrroduced by this idea in a code puzzle I was working on and it seemed like a nice topic to unpack here.
-
-Instead, my life got busy with deadlines, parenting and a new employment opportunity and so the blog post got postponed. And then postponed again.
+## Please, distract me?
 
 Which got me thinking about mental discipline, fear, and the craft of coding. Trying to produce code while being scattered, overwhelmed, afraid, tired, distracted or otherwise mentally off your game is just excruciating. For me, this often manifests as a sort of whirlwind of useless activity -- I start something and then leave it undone while I skip to the next thing and then interupt myself with yet another urgent thing I don't finish. Lack of focus doesn't even begin to describe that state.
 
 ## Getting pleasure of being organized
-
-The benefits of mental clarity and organization on the quality of code can hardly be overstated. From the tools used to code to the mental processes employed to break a problem down, physical space and time, a clear idea of purpose and destination, it all factors into both the quality of the experience and the resulting code. Because coding itself can be so intellectually challenging, the lack of focus can be so disastrous as to make solving a problem impossible.
 
 Which brings me to _mise en place_, a term found in the kitchen rather than Silicon Valley, but something I use quite often to help me get over the "scattered and anxious" wall. Merriam-Webster defines _mise en place_ as "A culinary process in which ingredients are prepared and organized (as in a restaurant kitchen) before cooking". In french it means "setting in place" 
 

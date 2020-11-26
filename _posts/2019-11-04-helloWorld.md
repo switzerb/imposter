@@ -1,10 +1,12 @@
-...[brennaswitzer.com](https://brennaswitzer.com) > [Imposter Syndrome](https://switzerb.github.io/imposter/)
-
-# Hello, World
-
+---
+layout: post
+title:  "Hello, World"
+date:   2019-11-04
+categories: process
+---
 The beginning of a project for me, particularly a greenfield project where no legacy code exists, is both exciting and terrifying. The sense of potential and possibility is almost intoxicating. And, for those of us with control issues and aspirations of perfection, a blank page also represents code with no errors in it yet.
 
-Crossing the threshhold into complexity doesn't take long and, inevitably the pride in accomplishment gets married to a strong impulse to refactor everything, RIGHT NOW.
+Crossing the threshold into complexity doesn't take long and, inevitably the pride in accomplishment gets married to a strong impulse to refactor everything, RIGHT NOW.
 
 Which is why sometimes it's hard to get started. Avoidance of the actual messiness of real life and fear of failure can generate a remarkable heap of procrastination. 
 
