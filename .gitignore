@@ -1,3 +1,5 @@
-/* Ignore Project Files */
-/idea
-*.iml
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
