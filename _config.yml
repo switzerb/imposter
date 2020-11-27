@@ -25,13 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   The intention here is less "tutorial" than "conversing about a topic I love". There are already many tutorials out there and frankly it makes me uncomfortable to position myself as an authority - I am constantly aware of how much there is to learn for any given topic.
 
   Writing software is delightful madness, personal obsession and an endless source of both frustration and joy. It is my hope that my writing here will both create a vehicle for deeper understanding for myself as well as spark conversation and connection with anyone who lands here and reads. Feel free to drop me a line at hello@brennaswitzer.com.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/imposter" # the subpath of your site, e.g. /blog
+url: "https://switzerb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  switzerb
 
 # Build settings
 # theme: minima
-theme: jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
   - jekyll-feed
 
