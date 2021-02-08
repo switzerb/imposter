@@ -23,9 +23,12 @@ I found a succinct explanation of the algorithm from [David Matuszek on his magn
 
 I also learned about `infix` and `prefix` and `postfix` arithmetic expressions, which I was unaware of. It's a way of changing the syntax of a mathematical expression without changing the semantic. It was interesting to learn this since I've been watching my son work his way through math word problems in the fifth grade and it's...there is a lot of overlap. It's incredible to see how much the **way you talk** about a problem affects the **way you solve** it.
 
-Infix is operators between operands: `3 + 4`
-Prefix is operators before operands: `+ 3 4`
-Postfix is operators after operands: `3 4 +`
+### Format of Arithmetic Expressions 
+**Infix** is operators between operands: `3 + 4`
+
+**Prefix** is operators before operands: `+ 3 4`
+
+**Postfix** is operators after operands: `3 4 +`
 
 Humans are more effective understanders of infix and computers prefer postfix...so something to remember as a handy rule of thumb for translation. The algorithm below is for infix expressions.
 
@@ -37,7 +40,6 @@ You need two stacks, a value stack (operands), and an operator stack. Numbers wi
    1. Get the next item
    1. If the item is:
        1. **A number**: push it onto the value stack.
-       1. **A variable**: get its value, and push onto the value stack.
        1. **A left parenthesis**: push it onto the operator stack.
        1. **A right parenthesis**:
             1. While the top of the operator stack is not a left parenthesis
@@ -45,15 +47,15 @@ You need two stacks, a value stack (operands), and an operator stack. Numbers wi
                 1. Pop the value stack twice, getting two operands.
                 1. Apply the operator to the operands, in the correct order.
                 1. Push the result onto the value stack.
-            1. Pop the left parenthesis from the operator stack, and discard it.
-       1. **An operator** `currentOp`:
+            1. Pop the left parenthesis from the operator stack
+       1. **An operator** `op`:
           1. While the operator stack is not empty, and the top of the
-           operator stack has the same or greater precedence as `currentOp`,
+           operator stack has the same or greater precedence as `op`,
                 1. Pop the operator from the operator stack.
                 1. Pop the value stack twice, getting two operands.
                 1. Apply the operator to the operands, in the correct order.
                 1. Push the result onto the value stack.
-          1. Push `currentOp` onto the operator stack.
+          1. Push `op` onto the operator stack.
 1. While the operator stack is not empty,
     1. Pop the operator from the operator stack.
     1. Pop the value stack twice, getting two operands.
@@ -102,4 +104,4 @@ fun evaluate(expr: CharIterator) : Long {
 }
 ```
 
-
+It's not fancy but it really helped me understand stacks and arithmetic expressions. It was also pointed out to me that this algorithm could be expressed recursively, by using the stack frames as a way to express "stack"...so perhaps a project for the future. My original puzzle solution was recursive, but not nearly so elegant.
