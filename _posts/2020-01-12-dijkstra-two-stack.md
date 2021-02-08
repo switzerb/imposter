@@ -5,8 +5,6 @@ date:   2020-1-12
 categories: algorithms
 ---
 
-## Dijkstra's Two-Stack Algorithm
-
 Dijkstra was pretty good at his job, as evidenced by the fact that his name is on a bunch of useful algorithms. This is one that was put in front of me as I was trying to solve [Advent of Code, Day 18 2020](https://adventofcode.com/2020/day/18). I'd never heard of it so thought I'd look in more detail.
 
 The gist of the puzzle (you can read the full text above) is evaluating arithmetic expressions in a way that is non-standard, like so: 
