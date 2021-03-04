@@ -37,7 +37,7 @@ println(strawberry > breadfruit) //true
 ```
 
 ## Comparators
-To create more nuanced sorting or custom ordering, create a [Comparator](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparator/) for the user-defined type.
+To create more nuanced sorting or custom ordering, create a [Comparator](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparator/) for the user-defined type. Note the use of this below returns a copy of the list and does not sort in-place.
 
 Using the above `Fruit` type:
 
@@ -55,3 +55,20 @@ class FruitByColor : Comparator<Fruit> {
 val fruits = listOf(grape, mango, strawberry, breadfruit)
 rintln(fruits.sortedWith(FruitByColor())) //[Breadfruit, Mango, Grape, Strawberry]
 ```
+
+## Mutable and Immutable Sorting
+
+For sorting, you can choose whether you would like to sort in-place or return a sorted copy of the object.
+`sort()` sorts a mutable collection in-place and `sorted()` creates a new collection. Note that you can't sort an immutable type in-place.
+
+```kotlin
+    val sortedFruit = fruits.sorted()
+    println(fruits) // [Grape, Mango, Strawberry, Breadfruit]
+    println(sortedFruit)  // [Breadfruit, Grape, Mango, Strawberry]
+    fruits.sort() // throws an error
+    fruits.toMutableList().sort()
+    println(fruits) //[Grape, Mango, Strawberry, Breadfruit]
+
+```
+
+
