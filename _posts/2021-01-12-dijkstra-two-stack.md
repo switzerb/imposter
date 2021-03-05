@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dijkstra's Two-Stack Algorithm"
-date:   2020-1-12
+date:   2021-1-12
 categories: algorithms
 ---
 
